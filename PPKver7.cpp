@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
                 organizmy.push_back(nowe_organizmy[i]);
             }
             //drukowanie
-            print(best, przedmioty, ilosc, plik_wyj, organizmy,1);
+            print(best, przedmioty, ilosc, plik_wyj, organizmy);
             ilosc++;
         }
         plik_wyj.close();
