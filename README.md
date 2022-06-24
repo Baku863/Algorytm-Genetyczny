@@ -4,10 +4,18 @@ Problem plecakowy rozwiązywany algorytmem genetycznym.
 Program uruchamiany jest z linii poleceń. Do programu należy
 przekazać siedem przełączników. Przykładowe wprowadzenie
 przełączników powinno wyglądać tak:
+
 program -i przedmioty.txt -o wyniki -g 2000 -k 100 -m 5 -w 7.5 -z 50
-Kolejno są to: plik wejściowy, plik wyjściowy, liczba generacji, liczba
-krzyżowań, procent mutacji, maksymalna waga, szansa na dodanie
-genu do rozwiązania.
+
+Kolejno są to: 
+- plik wejściowy
+- plik wyjściowy 
+- liczba generacji 
+- liczba krzyżowań 
+- procent mutacji 
+- maksymalna waga 
+- szansa na dodanie genu do rozwiązania.
+
 Uruchomienie programu z przełącznikiem -h lub bez parametrów,
 powoduje wyświetlenie pomocy. Każdy nieprawidłowość dotycząca
 wprowadzenia przełączników, ma odpowiedni komunikat w zależności
@@ -32,10 +40,10 @@ są waga i wartość całego rozwiązania.
 
 Program korzysta z algorytmu genetycznego, który składa się z
 czterech etapów:
--wstępnego tworzenia populacji początkowej
--krzyżowania
--mutacji
--selekcji powstałej generacji
+- wstępnego tworzenia populacji początkowej
+- krzyżowania
+- mutacji
+- selekcji powstałej generacji
 
 Ogólne działanie programu:
 
